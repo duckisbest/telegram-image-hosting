@@ -4,19 +4,19 @@ pages_build_output_dir = "dist"
 
 [[kv_namespaces]]
 binding = "app_data"
-id = "68461268f9c74d2a9e00f692076d6c84"
-preview_id = "69088be9ba19400983d1b14e3e74ecf5"
+id = "854f6bfe607b4b509c5849c18413a590"
+preview_id = "69088be9ba19400983d1b14e3e74ecf5""
 
 [env.production]
 vars = { NODE_ENV = "production" }
 
 [[env.production.kv_namespaces]]
 binding = "app_data"
-id = "68461268f9c74d2a9e00f692076d6c84"
+id = "854f6bfe607b4b509c5849c18413a590"
 
 [env.preview]
 vars = { NODE_ENV = "development" }
 
 [[env.preview.kv_namespaces]]
 binding = "app_data"
-id = "68461268f9c74d2a9e00f692076d6c84"
+id = "854f6bfe607b4b509c5849c18413a590"
